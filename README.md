@@ -1,17 +1,9 @@
-# Freeze-Players
-A server-side moderation and event utility mod that locks players in place and prevents them from breaking, placing, or interacting with blocks while frozen.
+# Freeze Players
 
+## Setup
 
-Commands:
+For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
 
-• /freeze <player> — Freezes a specific player in place.
+## License
 
-• /freeze all — Freezes all online players (automatically skips admins and blacklisted players).
-
-• /unfreeze <player> — Unfreezes a specific player.
-
-• /unfreeze all — Unfreezes all currently frozen players.
-
-• /freeze blacklist add <player> — Protects a player from being frozen.
-
-• /freeze blacklist remove <player> — Removes a player from the freeze blacklist.
+This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
