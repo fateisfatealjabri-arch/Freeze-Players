@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "freezemod",
+  "version": "${version}",
+  "name": "Freeze Mod",
+  "description": "Freeze and unfreeze players with blacklist support.",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.freezemod.FreezeMod"
+    ]
+  },
+  "mixins": [
+    "freezemod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
