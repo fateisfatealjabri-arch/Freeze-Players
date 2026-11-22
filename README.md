@@ -3,6 +3,7 @@ A server-side moderation and event utility mod that locks players in place and p
 
 
 Commands:
+
 • /freeze <player> — Freezes a specific player in place.
 
 • /freeze all — Freezes all online players (automatically skips admins and blacklisted players).
